@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.One-H1 {
+    background-color: rgb(255, 88, 88);
+}
+
+.Two-H2 {
+    background-color: rgb(33, 104, 185);
+}

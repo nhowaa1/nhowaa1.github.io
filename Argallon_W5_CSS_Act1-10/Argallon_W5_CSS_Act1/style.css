@@ -1,0 +1,13 @@
+p {
+    border: darkgray 5px solid;
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 1px;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}

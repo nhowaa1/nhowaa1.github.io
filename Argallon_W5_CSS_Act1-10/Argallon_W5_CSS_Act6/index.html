@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      height: 100vh;
+    }
+
+    .top {
+      background-color: #3498db;
+      color: white;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-family: Arial, sans-serif;
+    }
+
+    .content {
+      flex: 1;
+      display: flex;
+    }
+
+    .left {
+      background-color: #f1c40f;
+      color: white;
+      width: 100px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main {
+      background-color: #fff;
+      flex: 1;
+    }
+
+    .right {
+      background-color: #2ecc71;
+      color: white;
+      width: 100px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bottom {
+      background-color: #e74c3c;
+      color: white;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="top">Top</div>
+  <div class="content">
+    <div class="left">Left</div>
+    <div class="main"></div>
+    <div class="right">Right</div>
+  </div>
+  <div class="bottom">Bottom</div>
+</body>
+</html>

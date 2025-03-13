@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colored Grid</title>
+  <style>
+    /* Reset the body styles */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: white;
+    }
+
+    /* Container styles */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 100px); /* Two equal columns */
+      grid-template-rows: repeat(2, 100px);    /* Two equal rows */
+      gap: 9px; /* Space between the boxes */
+      padding: 10px; /* Padding inside the container */
+      background-color: rgb(117, 197, 224); /* Outer container background */
+      border: 1.5px solid rgb(14, 14, 57); /* Blue border around the container */
+    }
+
+    /* Individual box styles */
+    .box {
+      width: 100px;
+      height: 100px;
+    }
+
+    /* Colors for the boxes */
+    .red {
+      background-color: rgb(209, 3, 3);
+    }
+
+    .green {
+      background-color: rgb(38, 181, 38);
+      border: 1.4px solid rgb(0, 0, 0);
+    }
+
+    .blue {
+      background-color: navy;
+      border: 1.4px solid rgb(255, 255, 255);
+    }
+
+    .white {
+      background-color: white;
+      border: 1.5px solid rgb(85, 236, 85); /* Green border for the white box */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box red"></div>
+    <div class="box green"></div>
+    <div class="box blue"></div>
+    <div class="box white"></div>
+  </div>
+</body>
+</html>

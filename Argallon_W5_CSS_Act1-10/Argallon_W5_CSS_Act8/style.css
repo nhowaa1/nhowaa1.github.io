@@ -1,0 +1,15 @@
+.row1 {
+    background-color: lightblue;
+  }
+  
+  .row2col1 {
+    background-color: bisque;
+  }
+  
+  .row2col2row1 {
+    background-color: bisque;
+  }
+  
+  .row2col2row2 {
+    background-color: paleturquoise;
+  }

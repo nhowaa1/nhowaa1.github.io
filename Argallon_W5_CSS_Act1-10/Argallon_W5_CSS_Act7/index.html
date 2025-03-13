@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Correct Layout</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      font-family: Arial, sans-serif; 
+    }
+
+    .row1 {
+      background-color: lightblue;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .row2 {
+      display: flex;
+      flex: 1; 
+    }
+
+    .col {
+      flex: 1; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .col1 {
+      background-color: #FFE4C4;
+    }
+
+    .col2 {
+      background-color: #F0FFF0;
+    }
+
+    .col3 {
+      background-color: #E6E6FA;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="row1">
+    Row 1
+  </div>
+
+  <div class="row2">
+    <div class="col col1">Row2Col1</div>
+    <div class="col col2">Row2Col2</div>
+    <div class="col col3">Row2Col3</div>
+  </div>
+
+</body>
+</html>
